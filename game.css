@@ -1,14 +1,14 @@
 body {
     width: 930px;
-   text-align: center;
-   color: aliceblue;
-   font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .background {
     background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a7018daf-b329-4d31-8fe3-42efa896a2e7/deae6j7-f1bd0097-d153-4f30-8735-5f8d4ad42de6.jpg/v1/fill/w_1192,h_670,q_70,strp/_i_tried__jeopardy__2011_2012__template_background_by_jamelovesfonts11_deae6j7-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvYTcwMThkYWYtYjMyOS00ZDMxLThmZTMtNDJlZmE4OTZhMmU3XC9kZWFlNmo3LWYxYmQwMDk3LWQxNTMtNGYzMC04NzM1LTVmOGQ0YWQ0MmRlNi5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Yegd0YWYjKmqtd22vq4APoa9-qw3V_2S0VJu0K-HhKk");
     height: 700px;
-    
+
 }
 
 .questionNumber {
@@ -24,6 +24,7 @@ body {
     left: -125px;
     bottom: -115px;
 }
+
 .score {
     display: flex;
     justify-content: center;
@@ -56,9 +57,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px; 
+    height: 200px;
     margin: 10px 300px 0 300px;
-    border: 5px solid black; 
+    border: 5px solid black;
     border-radius: 10px;
     background: linear-gradient(black, blue, black);
 }
@@ -69,7 +70,10 @@ body {
     margin-top: 100px;
 }
 
-#choice-1, #choice-2, #choice-3, #choice-4 {
+#choice-1,
+#choice-2,
+#choice-3,
+#choice-4 {
     font-size: 1.2em;
     display: flex;
     justify-content: center;
