@@ -3,9 +3,9 @@
  This is a simple, 1 player, multiple choice trivia game. Trivia, as we know it, came around in the 1960s when college students traded questions and answers about pop culture from their youth. In this game, you will be tested on random trivia questions from many categories. You may even need to possess knowledge fit for a king. How well can you do?
 
  ## Screenshots
-    ![screenshot1](Screen Shot 2022-08-11 at 9.51.33 AM.png)
-    ![screenshot2](Screen Shot 2022-08-11 at 9.52.03 AM.png)
-    ![screenshot3](Screen Shot 2022-08-11 at 9.52.41 AM.png)
+    ![screenshot1](https://ibb.co/JxRJSb6
+    ![screenshot2](https://ibb.co/X2DbZRS)
+    ![screenshot3](https://ibb.co/bXHxqqN)
  ## Technologies used
 
   HTML, CSS, JavaScript
