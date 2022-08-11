@@ -86,12 +86,7 @@ let currentQuestion = 0;
 const allQuestions = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10, gameOver];
 
 
-question.innerText = allQuestions[currentQuestion].question;
-choice1.innerText = allQuestions[currentQuestion].choices[0];
-choice2.innerText = allQuestions[currentQuestion].choices[1];
-choice3.innerText = allQuestions[currentQuestion].choices[2];
-choice4.innerText = allQuestions[currentQuestion].choices[3];
-
+thisQuestion();
 
 function thisQuestion() {
     question.innerText = allQuestions[currentQuestion].question;
@@ -99,7 +94,7 @@ function thisQuestion() {
     choice2.innerText = allQuestions[currentQuestion].choices[1];
     choice3.innerText = allQuestions[currentQuestion].choices[2];
     choice4.innerText = allQuestions[currentQuestion].choices[3];
-}
+};
 
 
 function isGameOver() {
@@ -109,7 +104,7 @@ function isGameOver() {
 };
 
 
-function results() {
+function getResults() {
     if (playerScore <= 3) {
         question.innerHTML = `You scored ${playerScore}/10. You should work on it.`
     } else if (playerScore > 3 && playerScore < 7) {
@@ -133,11 +128,11 @@ choices.addEventListener('mouseover', function (e) {
 
 choices.addEventListener('mouseout', function (e) {
     if (e.target.style.background === 'red') {
-        e.target.style.background = 'red'
+        e.target.style.background = 'red';
     } else if (e.target.style.background === 'green') {
-        e.target.style.background = 'green'
+        e.target.style.background = 'green';
     } else {
-        e.target.style.background = 'linear-gradient(blue, black)'
+        e.target.style.background = 'linear-gradient(blue, black)';
     }
 });
 
@@ -159,7 +154,7 @@ choices.addEventListener('click', function (e) {
         isGameOver();
         if (gameInProgress === false) {
             questionNumber.innerText = '';
-            results();
+            getResults();
             const playAgain = document.createElement('h3');
             playAgain.innerText = 'Play Again';
             document.querySelector('.background').appendChild(playAgain);
