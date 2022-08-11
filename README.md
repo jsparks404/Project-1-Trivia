@@ -3,7 +3,7 @@
  This is a simple, 1 player, multiple choice trivia game. Trivia, as we know it, came around in the 1960s when college students traded questions and answers about pop culture from their youth. In this game, you will be tested on random trivia questions from many categories. You may even need to possess knowledge fit for a king. How well can you do?
 
  ## Screenshots
-    ![screenshot1](https://ibb.co/JxRJSb6
+    ![screenshot1](https://ibb.co/JxRJSb6)
     ![screenshot2](https://ibb.co/X2DbZRS)
     ![screenshot3](https://ibb.co/bXHxqqN)
  ## Technologies used
@@ -12,7 +12,7 @@
 
   ## Getting Started
 
-    Just click the link below and you will be led to the game page. Click the 'Start Trivia' button and the game will begin. You will be asked 10 questions in total, each with 4 choices. Click whichever choice you think is best. You will shown whether you choice was correct or not, and the next question will load. Once you've answered all 10 questions, you will be shown your final score. You will also be given the option to play again if you so choose.
+ Just click the link below and you will be led to the game page. Click the 'Start Trivia' button and the game will begin. You will be asked 10 questions in total, each with 4 choices. Click whichever choice you think is best. You will shown whether you choice was correct or not, and the next question will load. Once you've answered all 10 questions, you will be shown your final score. You will also be given the option to play again if you so choose.
 
   https://jsparks404.github.io/Project-1-Trivia/
 
